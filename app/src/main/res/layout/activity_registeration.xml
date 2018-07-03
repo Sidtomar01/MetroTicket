@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/fb1"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddharth.metroticket.registeration">
+
+   <LinearLayout
+
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+
+       <TextView
+           android:textColor="#000"
+           android:textSize="20dp"
+           android:gravity="center"
+           android:text="REGISTERATION"
+           android:id="@+id/t1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="NAME"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editname"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="FATHERS-NAME"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editfname"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t4"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="MOTHERS-NAME"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editmname"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t5"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="MOBILE-NUMBER"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editmobilenum"
+            android:layout_marginLeft="10dp"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t6"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="EMAIL"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editemail"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t7"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="PASSWORD"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:inputType="numberPassword"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editpasswd"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t8"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="RETYPE-PASSWORD"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+
+            android:inputType="numberPassword"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editconfpasswd"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t9"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:text="ADDRESS"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <EditText
+            android:textSize="13dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/editamount"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/shape_layout2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/register"
+            android:layout_marginLeft="120dp"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:background="@drawable/shape_register"
+            android:text="register"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

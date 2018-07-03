@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fb1"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddharth.metroticket.Checking">
+
+    <TextView
+        android:id="@+id/textview"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:text="CHECK-STATUS"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+<EditText
+    android:id="@+id/edittext"
+    android:layout_marginBottom="40dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:textColorHint="#fff"
+    android:hint="TICKET HOLDER ID"
+    android:drawableLeft="@drawable/ic_person_black_24dp"
+    android:background="@drawable/shape_register"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+       <Button
+           android:drawableRight="@drawable/ic_menu_send"
+           android:textColor="#fff"
+           android:text="get status"
+           android:background="@drawable/shape_button"
+           android:id="@+id/button1"
+           android:layout_weight="1"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+        <Button
+            android:drawableRight="@drawable/ic_menu_send"
+            android:textColor="#fff"
+            android:text="IMPOSE FINE"
+            android:background="@drawable/shape_button"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="#fff"
+        android:hint="PASS HOLDER ID"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:drawableRight="@drawable/ic_menu_send"
+            android:textColor="#fff"
+            android:text="get status"
+            android:background="@drawable/shape_button"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:drawableRight="@drawable/ic_menu_send"
+            android:textColor="#fff"
+            android:text="IMPOSE FINE"
+            android:background="@drawable/shape_button"
+            android:id="@+id/button4"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

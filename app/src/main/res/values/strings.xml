@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Metro Ticket</string>
+    <string name="title_activity_tc_dash_board">TcDashBoard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="source">
+
+        <item>Vivek_vihar</item>
+
+        <item>Sindhi_camp</item>
+
+        <item>Mansarovar</item>
+
+        <item>Railway_station</item>
+        <item>Badi_chaupar</item>
+        <item>Civil_lines</item>
+        <item>Ram_nagar</item>
+    </string-array>
+    <string-array name="destination">
+
+        <item>Vivek_vihar</item>
+
+        <item>Sindhi_camp</item>
+
+        <item>Mansarovar</item>
+
+        <item>Railway_station</item>
+        <item>Badi_chaupar</item>
+        <item>Civil_lines</item>
+        <item>Ram_nagar</item>
+    </string-array>
+
+    <string-array name="bank_names">
+
+
+        <item>HDFC Bank</item>
+        <item>ICICI  Bank</item>
+        <item>State Bank  of India</item>
+        <item>Axis Bank</item>
+        <item>Kotak Bank</item>
+        <item>Allahabad Bank</item>
+        <item>Central Bank</item>
+        <item>DCB Bank</item>
+        <item>IDBI Bank</item>
+        <item>Fedral Bank</item>
+        <item>Indian Bank</item>
+        <item>JK Bank</item>
+        <item>Karnatka Bank</item>
+        <item>Lakshmi Bank</item>
+        <item>RBS Bank</item>
+        <item>UCO Bank</item>
+        <item>YES Bank</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="9"
+    android:background="@drawable/fb1"
+    tools:context="com.example.siddharth.metroticket.Details">
+
+
+
+    <TextView
+        android:layout_marginBottom="4dp"
+        android:paddingTop="10dp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:paddingLeft="120dp"
+        android:text="DETAILS"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+
+
+
+
+
+
+    <TextView
+
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/tx1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/tx2"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/tx3"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <TextView
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        android:id="@+id/tx4"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/tx5"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

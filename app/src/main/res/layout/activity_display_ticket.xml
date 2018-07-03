@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:background="@drawable/fb1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddharth.metroticket.Display_ticket">
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textColor="#fff"
+            android:paddingTop="30dp"
+
+            android:textSize="24dp"
+            android:text="NAME:-"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_register"
+            android:paddingBottom="20dp"
+            android:paddingLeft="40dp"
+
+            android:paddingTop="15dp"
+
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:paddingTop="30dp"
+
+            android:textSize="24dp"
+            android:text="Source:-"
+            android:layout_weight=".8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+
+            android:paddingLeft="40dp"
+
+
+
+            android:textColor="#fff"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:paddingTop="30dp"
+
+            android:textSize="24dp"
+            android:text="Destination:"
+            android:layout_weight=".8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+
+
+            android:paddingLeft="40dp"
+
+
+
+            android:textColor="#fff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textColor="#fff"
+            android:paddingTop="30dp"
+
+            android:textSize="24dp"
+            android:text="Amount-"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="50.0"
+            android:id="@+id/txt4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_register"
+            android:paddingBottom="20dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+
+
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+
+        <TextView
+            android:textColor="#fff"
+            android:paddingTop="30dp"
+
+            android:textSize="20dp"
+            android:text="Date of journey:-"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:textColorHint="#fff"
+            android:hint="CLICK HERE"
+            android:id="@+id/bt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_register"
+            android:paddingBottom="20dp"
+            android:paddingLeft="40dp"
+
+            android:paddingTop="15dp"
+
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/btn"
+            android:textColor="#fff"
+            android:text="book"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/shape_button"
+
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout>
+
+
+</LinearLayout>

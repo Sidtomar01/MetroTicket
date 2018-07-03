@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fb1"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddharth.metroticket.TrainPass">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#fff"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_register"
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Source       "
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+        <Spinner
+
+            android:id="@+id/sp1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></Spinner>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Destination"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+        <Spinner
+
+            android:id="@+id/sp2"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></Spinner>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/t4"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="TICKET-TYPE"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioGroup
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <RadioButton
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Monthly"
+                android:id="@+id/monthly"
+                android:onClick="Select_Ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Quaterly"
+                android:id="@+id/quaterly"
+                android:onClick="Select_Ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Yearly    "
+                android:id="@+id/yearly"
+                android:onClick="Select_Ticket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RadioGroup>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+
+        <TextView
+
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_register"
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+
+        <Button
+            android:layout_weight="1.5"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/shape_button"
+            android:id="@+id/bttn1"
+            android:text="submit"
+            android:layout_marginLeft="150dp"
+            android:layout_width="140dp"
+            android:layout_height="0dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

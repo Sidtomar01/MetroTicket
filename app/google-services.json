@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "891723214897",
+    "firebase_url": "https://metroticket-ab0fd.firebaseio.com",
+    "project_id": "metroticket-ab0fd",
+    "storage_bucket": "metroticket-ab0fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891723214897:android:60dccbfcb6ddcd99",
+        "android_client_info": {
+          "package_name": "com.example.siddharth.metroticket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891723214897-kavqgv1bg4hmei3lo6mgpp43do6rmgl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.siddharth.metroticket",
+            "certificate_hash": "4fcc6fb55448d27e5091e909f3ae633b7edaa52f"
+          }
+        },
+        {
+          "client_id": "891723214897-ivpear523bv7pfqf4tjc6u5nqt6sdgoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV0ANWKy4uDWQsBWTxz_PMiMWTEDQnx-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891723214897-ivpear523bv7pfqf4tjc6u5nqt6sdgoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

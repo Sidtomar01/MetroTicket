@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fb1"
+    tools:context="com.example.siddharth.metroticket.Dashboard">
+    <LinearLayout
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textSize="40dp"
+
+            android:text="welcome:-"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+
+            android:textColor="#1d37de"
+            android:textSize="30dp"
+
+            android:id="@+id/tx6"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/bt1"
+            android:textSize="20dp"
+            android:text="TRAIN TICKET"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape_register"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <Button
+            android:id="@+id/bt2"
+            android:textSize="20dp"
+            android:text="TRAIN PASS"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape_register"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:textSize="20dp"
+            android:text="credit/debit pay"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape_register"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <Button
+            android:id="@+id/bt4"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:text="DETAILS"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape_register"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <Button
+            android:id="@+id/bt5"
+            android:textSize="20dp"
+            android:text="logout"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/shape_register"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout>
+
+
+
+
+</LinearLayout>
